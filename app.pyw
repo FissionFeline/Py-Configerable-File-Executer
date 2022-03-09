@@ -12,8 +12,6 @@ def main():
                 Run_File(JsonTmpVar["File1"])
             except Exception as e:
                 pass
-    except FileExistsError:
-        pass
     except FileNotFoundError:
         pass
 
